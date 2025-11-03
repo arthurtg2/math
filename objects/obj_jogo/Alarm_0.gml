@@ -16,4 +16,4 @@ for (var i = 0; i < array_length(y_posicoes); i++) {
 }
 
 // Reativa o alarme para o próximo ciclo de criação de obstáculos
-alarm[0] = 60 * random_range(1, 3);
+alarm[0] = 60 * random_range(2, 3);

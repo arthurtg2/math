@@ -10,7 +10,7 @@
 instance_destroy(other)
 global.vida--;
 
-if (global.vida == 1)
+if (global.vida <= 1)
 {
 	//avisando que o jogo acabou
 	global.acabou = true;

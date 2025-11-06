@@ -1,2 +1,2 @@
 //danddo uma velocidade para os obstaculos
-velh = 1
+velh = 2

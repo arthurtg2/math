@@ -10,10 +10,10 @@ global.pontos += 0.1;
 
 //Se a minha pontuacao for multipla de 100, eu aumento a dificuldade
 
-if(global.pontos >= global.dificuldade * 100){
+/*if(global.pontos >= global.dificuldade * 100){
 
 	//eu aumento a dificuldade
-	global.dificuldade = global.dificuldade +0.001; // aumentou o valor em 1
+	global.dificuldade = global.dificuldade +0.0001; // aumentou o valor em 1
 	
 	layer_hspeed("mapa", - global.dificuldade)
 	layer_hspeed("cidade", - global.dificuldade +0.5)

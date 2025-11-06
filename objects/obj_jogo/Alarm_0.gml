@@ -10,9 +10,9 @@ for (var i = 0; i < array_length(y_posicoes); i++) {
     // Se a posição atual do loop NÃO for a faixa livre, cria um obstáculo
     if (i != faixa_livre_indice) {
         var obstaculo_tipo = choose(obj_caixa, obj_tinta);
-        instance_create_layer(710, y_posicoes[i], "obstaculos", obstaculo_tipo);
+        instance_create_layer(730, y_posicoes[i], "obstaculos", obstaculo_tipo);
     }
 }
 
 // Reativa o alarme para o próximo ciclo de criação de obstáculos
-alarm[0] = 60 * random_range(2, 3);
+alarm[0] = 60 * random_range(1, 2);

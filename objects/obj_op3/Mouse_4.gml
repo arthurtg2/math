@@ -8,6 +8,7 @@ if (instance_exists(obj_op3)) with (obj_op3) instance_destroy();
 // Só esse código roda uma vez
 audio_play_sound(snd_errada, 0, 0);
 global.vida--;
+global.erros--
 
 // Cria novas opções
 with (obj_op1) instance_destroy();

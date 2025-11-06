@@ -2,29 +2,49 @@
 global.vida = 5;        // exemplo de vida inicial
 
 //gera dois nr aleatórios e a operação
-global.Cnova = function(){
-	
-randomize();
-global.n1 = irandom_range(1,10);
-global.n2 = irandom_range(1,10);
+global.Cnova = function() {
+    
+    randomize();
 
-global.nopr = irandom_range(1,3);
-global.opr = "";
-global.total = 0;
+    
+    // Define o limite inferior (Base para n1 e n2)
+    var limite_inferior = 10 + 4 * global.acertos;
+    
+    // Define o limite superior (que cresce com os acertos)
+    var limite_superior = 10 + 5 * global.acertos;
+    
+    
+    // 3. Gera os números iniciais dentro do limite de dificuldade
+    global.n1 = irandom_range(limite_inferior, limite_superior);
+    global.n2 = irandom_range(limite_inferior, limite_superior);
 
-if(global.nopr == 1){
-global.opr = "+";
-global.total = global.n1+global.n2;
+    global.nopr = irandom_range(1, 3);
+    global.opr = "";
+    global.total = 0;
 
-}else if(global.nopr == 2){
-global.opr = "-";
-global.total = global.n1-global.n2;
+    if (global.nopr == 1) {
+        // ADIÇÃO: Usa os números gerados
+        global.opr = "+";
+        global.total = global.n1 + global.n2;
 
-}else{
-global.opr = "X";
-global.total = global.n1*global.n2;
+    } else if (global.nopr == 2) {
+        // SUBTRAÇÃO: Usa os números gerados
+        global.opr = "-";
+        global.total = global.n1 - global.n2;
+
+    } else {
+        // MULTIPLICAÇÃO: Diminui (soma 50) de cada número antes de calcular o total
+        global.opr = "X";
+        
+        
+        global.n1 = floor(global.n1 / 4);
+		global.n2 = floor(global.n2 / 4);
+        
+        // Calcula o total com os valores ajustados
+        global.total = global.n1 * global.n2;
+    };
 };
-};
+
 global.Cnova();
 
 
@@ -59,8 +79,10 @@ global.N_op3();
 
 
 //ativando alarme 0
-alarm[0] = 1;
-
+alarm[0] = 60;
+alarm[1] = 60
+alarm[2] = 60
+alarm[3] = 60
 
 // criando os pontos
 

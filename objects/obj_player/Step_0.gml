@@ -14,14 +14,14 @@ if (y >= 275) {
 if (keyboard_check(ord("W")) or keyboard_check(vk_up))
 {
     // Move o personagem para cima
-    y = y - 4; // Ou a velocidade que você preferir
+    y = y - 2; // Ou a velocidade que você preferir
 }
 
 // Verifica se a tecla 'S' está sendo pressionada
 if (keyboard_check(ord("S")) or keyboard_check(vk_down))
 {
     // Move o personagem para baixo
-    y = y + 4; // Ou a velocidade que você preferir
+    y = y + 2; // Ou a velocidade que você preferir
 }
 
 if (global.vida <= 1)
@@ -34,7 +34,7 @@ if (global.vida <= 1)
 	
 	
 	
-	layer_hspeed("Background", 0);
+	layer_hspeed("cidade", 0);
 	layer_hspeed("mapa", 0);
 	layer_hspeed("nuvens", 0);
 	layer_hspeed("sol", 0);
@@ -48,6 +48,7 @@ if (global.pontos > global.pontos_alto){
 	}
 	//resetando a dificuldade
 	global.dificuldade = 1;
+	
 	
 	//tocando o som de perder
 	audio_play_sound(snd_derrota, 0, 0);

@@ -1,9 +1,11 @@
 //Reiniciando o jogo
  game_restart();
  
- //xerando os pontos 
- global.pontos = 0;
- 
+ //zerando os pontos 
+global.pontos = 0;
+global.acertos = 0
+global.erros = 0
+
  //avisando que o jogo nÃo acacou
  global.acabou = false;
  

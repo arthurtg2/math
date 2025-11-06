@@ -1,4 +1,11 @@
 
+    // 1. GERA A CONTA, VALORES, E global.resposta_correta
+    // ... (Seu código de sorteio de n1, n2, e opr) ...
+
+    // 2. GERA AS OPÇÕES DE RESPOSTA (o array 'opcoes')
+    // ... (Seu código de geração de respostas erradas) ...
+    
+    // 3. SORTEIO DE POSIÇÕES (AQUI!)
     var pos_y = [15, 40, 65]; 
     array_shuffle(pos_y);
     
@@ -15,11 +22,12 @@
     instance_create_layer(x_fixo, pos_y[2], "op", obj_op3).valor_botao = opcoes[2];
 
 
-audio_play_sound(snd_certa, 0, 0);
-global.vida++
+audio_play_sound(snd_errada, 0, 0);
+global.vida--
 
 global.Cnova();
 global.N_op2();
 global.N_op3();
+
 
 

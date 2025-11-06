@@ -1,1 +1,1 @@
-global.vida = 5
+//global.vida = 5

@@ -35,18 +35,7 @@ draw_text(450, 10, string(velocidade));
 draw_set_color(c_silver);
 
 
-//vida do player
-if(global.vida = 5)
-draw_sprite(spr_vida,5,43,30)
 
-if(global.vida = 4)
-draw_sprite(spr_vida,1,43,30)
 
-if(global.vida = 3)
-draw_sprite(spr_vida,2,43,30)
 
-if(global.vida = 2)
-draw_sprite(spr_vida,3,43,30)
-
-if(global.vida = 1)
-draw_sprite(spr_vida,4,43,30)
+draw_text(450, 24, string(global.n1) +""+ global.opr +""+ string(global.n2));

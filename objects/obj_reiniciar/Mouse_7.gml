@@ -6,3 +6,5 @@
  
  //avisando que o jogo nÃo acacou
  global.acabou = false;
+ 
+ global.vida = 5

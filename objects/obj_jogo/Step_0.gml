@@ -1,4 +1,4 @@
-
+global.vida = clamp(global.vida, 0, 5);
 
 //SE O JOGO ACABOU EU SAIO DO EVENTO
 if (global.acabou){

@@ -1,5 +1,4 @@
 // @description criando os obstáculos
-
 // Array com as coordenadas Y das faixas
 var y_posicoes = [178, 224, 271];
 

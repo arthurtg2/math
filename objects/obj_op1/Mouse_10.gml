@@ -3,3 +3,4 @@ sprite_index = spr_op;
 // Garante que a animação recomece ou comece a rodar
 image_index = 1; 
 audio_play_sound(snd_op, 0, 0);
+

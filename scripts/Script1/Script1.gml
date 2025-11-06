@@ -1,3 +1,4 @@
+//gerando um nr aleatório
 
 
 //criando a variavel global

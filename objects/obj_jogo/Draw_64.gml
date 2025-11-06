@@ -1,4 +1,4 @@
-
+draw_set_color(c_silver);
 
 //Definindo a fonte correta
 draw_set_font(fnt_pontos);
@@ -7,7 +7,6 @@ draw_set_font(fnt_pontos);
 
 
 //mudando a cor do texto
-draw_set_color(c_aqua)
 
 //deixando o meu numero inteiro
 var _pontos = "Pontos: " + string(round(global.pontos))
@@ -20,7 +19,7 @@ var _pontos_alto = "HI: " + string(round(global.pontos_alto));
 draw_text(623, 11, _pontos_alto);
 
 //Debug da dificuldade
-draw_text(500, 10, global.dificuldade);
+//draw_text(500, 10, global.dificuldade);----------------------
 
 // 1. Obter o ID da Layer usando o nome (Se a layer se chama "mapa")
 var layer_id = layer_get_id("mapa");
@@ -30,9 +29,9 @@ var velocidade = layer_get_hspeed(layer_id);
 
 // 3. Desenhar o texto na tela
 // A função draw_text espera uma string como último argumento.
-draw_text(450, 10, string(velocidade));
+//draw_text(450, 10, string(velocidade));-----------------------
 
-draw_set_color(c_silver);
+var acertos = "Acertos" + string(round()
 
 
 

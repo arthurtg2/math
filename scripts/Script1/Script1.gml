@@ -1,5 +1,5 @@
-//gerando um nr aleatório
-
+global.acertos = 0
+global.erros = 0 
 
 //criando a variavel global
 global.pontos = 0;

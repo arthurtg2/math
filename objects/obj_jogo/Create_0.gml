@@ -59,7 +59,7 @@ global.N_op3();
 
 
 //ativando alarme 0
-alarm[0] = 60;
+alarm[0] = 1;
 
 
 // criando os pontos

@@ -16,7 +16,7 @@ if(global.pontos >= global.dificuldade * 100){
 	global.dificuldade = global.dificuldade +0.001; // aumentou o valor em 1
 	
 	layer_hspeed("mapa", - global.dificuldade)
-	layer_hspeed("Background", - global.dificuldade +0.5)
+	layer_hspeed("cidade", - global.dificuldade +0.5)
 	layer_hspeed("nuvens", - global.dificuldade + 0.7)
 }
 

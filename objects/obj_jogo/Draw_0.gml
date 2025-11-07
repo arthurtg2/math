@@ -1,0 +1,1 @@
+draw_text(450, 24, string(global.n1) +""+ global.opr +""+ string(global.n2));

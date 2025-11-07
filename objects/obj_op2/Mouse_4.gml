@@ -1,4 +1,4 @@
-
+global.pontos= global.pontos - 20;
 // Evita múltiplos cliques e objetos repetidos
 // Destroi somente as opções se existirem
 if (instance_exists(obj_op1)) with (obj_op1) instance_destroy();

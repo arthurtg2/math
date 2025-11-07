@@ -1,3 +1,6 @@
+global.pontos= global.pontos + 10;
+
+
 
 // Evita múltiplos cliques e objetos repetidos
 // Destroi somente as opções se existirem

@@ -1,4 +1,4 @@
-draw_set_color(#5F9EA0);
+draw_set_color(c_black);
 
 //Definindo a fonte correta
 draw_set_font(fnt_pontos);
@@ -37,4 +37,4 @@ draw_text(625, 22, acertos);
 var erros = "Erros:" + string(round(global.erros));
 draw_text(625, 33, erros);
 
-draw_text(450, 24, string(global.n1) +""+ global.opr +""+ string(global.n2));
+

@@ -1,5 +1,8 @@
 
-global.vida = 5;        // exemplo de vida inicial
+//toca a mus
+audio_play_sound(snd_musica, 10, true)
+
+global.vida = 5;        // de vida inicial
 
 //gera dois nr aleatórios e a operação
 global.Cnova = function() {
@@ -78,11 +81,12 @@ if(global.opr_obj_op3 == 1){
 global.N_op3();
 
 
-//ativando alarme 0
+//ativando os  alarmes 
 alarm[0] = 60;
 alarm[1] = 60
 alarm[2] = 60
 alarm[3] = 60
+alarm[4] = 60
 
 // criando os pontos
 

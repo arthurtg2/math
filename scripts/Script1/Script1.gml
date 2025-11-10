@@ -1,5 +1,7 @@
 global.acertos = 0
 global.erros = 0 
+global.pontosvida = 0
+
 
 //criando a variavel global
 global.pontos = 0;

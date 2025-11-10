@@ -1,5 +1,11 @@
 global.pontos= global.pontos + 10;
+global.pontosvida = global.pontosvida + 0.5
 
+if(global.pontosvida = 1){
+global.vida++
+global.pontosvida = 0
+}else{
+}
 
 
 // Evita múltiplos cliques e objetos repetidos
@@ -10,7 +16,6 @@ if (instance_exists(obj_op3)) with (obj_op3) instance_destroy();
 
 // Só esse código roda uma vez
 audio_play_sound(snd_certa, 0, 0);
-global.vida++;
 global.acertos++
 
 // Cria novas opções
@@ -24,9 +29,9 @@ global.N_op3();
 
 
 // Cria novas instâncias das opções
-var op1 = instance_create_layer(512, 15, "op", obj_op1);
-var op2 = instance_create_layer(512, 40, "op", obj_op2);
-var op3 = instance_create_layer(512, 60, "op", obj_op3);
+var op1 = instance_create_layer(455, 15, "op", obj_op1);
+var op2 = instance_create_layer(455, 40, "op", obj_op2);
+var op3 = instance_create_layer(455, 60, "op", obj_op3);
 
 // Cria lista de posições possíveis
 var pos_y = ds_list_create();

@@ -15,4 +15,13 @@ for (var i = 0; i < array_length(y_posicoes); i++) {
 }
 
 // Reativa o alarme para o próximo ciclo de criação de obstáculos
-alarm[0] = 60 * random_range(1, 2);
+
+if(global.pontos < 500){
+alarm[0] = 60 * random_range(1.5,1.5);
+
+}else if(global.pontos < 1000){
+alarm[0] = 60 * random_range(0.8, 1.2);
+
+}else if(global.pontos < 1500){
+alarm[0] = 60 * random_range(0.7, 1);
+} 

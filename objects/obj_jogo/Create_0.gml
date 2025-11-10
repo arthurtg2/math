@@ -11,10 +11,10 @@ global.Cnova = function() {
 
     
     // Define o limite inferior (Base para n1 e n2)
-    var limite_inferior = 10 + 4 * global.acertos;
+    var limite_inferior = 10;
     
     // Define o limite superior (que cresce com os acertos)
-    var limite_superior = 10 + 5 * global.acertos;
+    var limite_superior = 30 + 5 * global.acertos;
     
     
     // 3. Gera os números iniciais dentro do limite de dificuldade
@@ -40,8 +40,8 @@ global.Cnova = function() {
         global.opr = "X";
         
         
-        global.n1 = floor(global.n1 / 4);
-		global.n2 = floor(global.n2 / 4);
+        global.n1 = floor(global.n1 / 5);
+		global.n2 = floor(global.n2 / 5);
         
         // Calcula o total com os valores ajustados
         global.total = global.n1 * global.n2;

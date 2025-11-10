@@ -8,7 +8,8 @@ if (instance_exists(obj_op3)) with (obj_op3) instance_destroy();
 // Só esse código roda uma vez
 audio_play_sound(snd_errada, 0, 0);
 global.vida--;
-global.erros--
+global.erros++
+global.pontosvida = 0
 
 // Cria novas opções
 with (obj_op1) instance_destroy();
@@ -21,10 +22,9 @@ global.N_op3();
 
 
 // Cria novas instâncias das opções
-var op1 = instance_create_layer(512, 15, "op", obj_op1);
-var op2 = instance_create_layer(512, 40, "op", obj_op2);
-var op3 = instance_create_layer(512, 60, "op", obj_op3);
-
+var op1 = instance_create_layer(455, 15, "op", obj_op1);
+var op2 = instance_create_layer(455, 40, "op", obj_op2);
+var op3 = instance_create_layer(455, 60, "op", obj_op3);
 // Cria lista de posições possíveis
 var pos_y = ds_list_create();
 ds_list_add(pos_y, 15, 40, 65);

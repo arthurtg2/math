@@ -1,0 +1,1 @@
+global.tempo_atual = 60 * 15

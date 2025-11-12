@@ -6,6 +6,12 @@ else
     // Ação a ser executada quando o tempo acabar (por exemplo, reiniciar o jogo)
      global.vida--
 	 global.tempo_atual = 60 * 15
+	 
+	 instance_destroy(obj_op1);
+	 instance_destroy(obj_op2);
+	 instance_destroy(obj_op3);
+	 
+	 obj_jogo.alarm[4] = 1;
 }
 
 

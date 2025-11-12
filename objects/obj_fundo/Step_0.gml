@@ -1,4 +1,4 @@
-// 1. Decrementa o tempo
+/*// 1. Decrementa o tempo
 if (tempo_atual > 0)
 {
     tempo_atual -= 1;

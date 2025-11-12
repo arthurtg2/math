@@ -1,6 +1,8 @@
 
-//toca a mus
-audio_play_sound(snd_musica, 10, true)
+if (!audio_is_playing(snd_musica)) {
+    // Só toca se não estiver tocando
+    audio_play_sound(snd_musica, 10, true);
+}
 
 global.vida = 5;        // de vida inicial
 
@@ -86,7 +88,7 @@ alarm[0] = 60;
 alarm[1] = 60
 alarm[2] = 60
 alarm[3] = 60
-alarm[4] = 60
+
 
 // criando os pontos
 

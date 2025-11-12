@@ -1,4 +1,4 @@
-// Variaveis de controle de tempo (30 segundos * 60 passos/segundo)
+/*// Variaveis de controle de tempo (30 segundos * 60 passos/segundo)
 tempo_atual = 60 * 3;
 
 // Variavel de estado

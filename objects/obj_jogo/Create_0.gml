@@ -94,7 +94,7 @@ alarm[3] = 60
 
 
 // Define o tamanho da janela. Altere os valores para o tamanho desejado.
-window_set_size(1920, 1080);
+window_set_size(1820, 980);
 
 // Centraliza a janela na tela
 window_center();

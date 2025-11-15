@@ -11,14 +11,14 @@ if (y >= 275) {
 }
 
 // Verifica se a tecla 'W' está sendo pressionada
-if (keyboard_check_direct(ord("W"))) or keyboard_check_direct(vk_up)
+if (keyboard_check_direct(ord("W"))) or (keyboard_check(vk_up))
 {
     // Move o personagem para cima
     y = y - 4; // Ou a velocidade que você preferir
 }
 
 // Verifica se a tecla 'S' está sendo pressionada
-if (keyboard_check_direct(ord("S"))) or keyboard_check_direct(vk_up)
+if (keyboard_check_direct(ord("S"))) or (keyboard_check(vk_down))
 {
     // Move o personagem para baixo
     y = y + 4; // Ou a velocidade que você preferir

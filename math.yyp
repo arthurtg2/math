@@ -38,11 +38,13 @@
   "name":"math",
   "resources":[
     {"id":{"name":"fnt_conta","path":"fonts/fnt_conta/fnt_conta.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"obj_caixa","path":"objects/obj_caixa/obj_caixa.yy",},},
     {"id":{"name":"obj_controle_tinta","path":"objects/obj_controle_tinta/obj_controle_tinta.yy",},},
     {"id":{"name":"obj_fundo","path":"objects/obj_fundo/obj_fundo.yy",},},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_npcs_1","path":"objects/obj_npcs_1/obj_npcs_1.yy",},},
     {"id":{"name":"obj_npcs_2","path":"objects/obj_npcs_2/obj_npcs_2.yy",},},
     {"id":{"name":"obj_npcs_3","path":"objects/obj_npcs_3/obj_npcs_3.yy",},},
@@ -60,7 +62,8 @@
     {"id":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},},
     {"id":{"name":"obj_tinta","path":"objects/obj_tinta/obj_tinta.yy",},},
     {"id":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"jogo","path":"rooms/jogo/jogo.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"snd_certa","path":"sounds/snd_certa/snd_certa.yy",},},
     {"id":{"name":"snd_derrota","path":"sounds/snd_derrota/snd_derrota.yy",},},
@@ -96,7 +99,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"roomId":{"name":"jogo","path":"rooms/jogo/jogo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

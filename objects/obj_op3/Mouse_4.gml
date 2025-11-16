@@ -1,3 +1,4 @@
+if (global.acabou == false){
 global.pontos= global.pontos - 20;
 global.tempo_atual = 60 * 15
 
@@ -13,3 +14,4 @@ instance_destroy(obj_op3);
 
 // Inicie o Alarme 4 no obj_jogo para recriar os botões no PRÓXIMO frame
 obj_jogo.alarm[4] = 1;
+}

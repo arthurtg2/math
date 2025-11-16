@@ -1,3 +1,4 @@
+if (global.acabou == false){
 global.pontos= global.pontos + 10;
 global.pontosvida = global.pontosvida + 0.5
 global.tempo_atual = 60 * 15
@@ -24,5 +25,5 @@ if (!audio_is_playing(snd_musica)) {
     // Só toca se não estiver tocando
     audio_play_sound(snd_musica, 10, true);
 }
-
+}
 

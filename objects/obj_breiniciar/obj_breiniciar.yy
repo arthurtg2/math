@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_reiniciar",
+  "%Name":"obj_breiniciar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_reiniciar",
+  "name":"obj_breiniciar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"gameover",
+    "path":"folders/Objects/gameover.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_reiniciar",
-    "path":"sprites/spr_reiniciar/spr_reiniciar.yy",
+    "name":"spr_breiniciar",
+    "path":"sprites/spr_breiniciar/spr_breiniciar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -23,5 +23,11 @@ alarm[0] = 60 * random_range(1.5,1.5);
 alarm[0] = 60 * random_range(1.0, 1.3);
 
 }else if(global.pontos < 1500){
-alarm[0] = 60 * random_range(0.8, 1.1);
-} 
+alarm[0] = 60 * random_range(0.9, 1.1);
+
+}else if(global.pontos < 2000){
+alarm[0] = 60 * random_range(0.7, 0.9);
+
+}else if(global.pontos > 2500){
+alarm[0] = 60 * random_range(0.5, 0.7);
+}

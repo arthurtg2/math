@@ -1,5 +1,7 @@
+
+if (layer_get_visible("reiniciar")){
 //Reiniciando o jogo
- game_restart();
+room_goto(jogo);
  
  //zerando os pontos 
 global.pontos = 0;
@@ -10,3 +12,4 @@ global.erros = 0
  global.acabou = false;
  
  global.vida = 5
+}

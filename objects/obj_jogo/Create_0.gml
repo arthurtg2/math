@@ -23,7 +23,7 @@ global.Cnova = function() {
     global.n1 = irandom_range(limite_inferior, limite_superior);
     global.n2 = irandom_range(limite_inferior, limite_superior);
 
-    global.nopr = irandom_range(1, 3);
+    global.nopr = irandom_range(1, 4);
     global.opr = "";
     global.total = 0;
 
@@ -37,17 +37,25 @@ global.Cnova = function() {
         global.opr = "-";
         global.total = global.n1 - global.n2;
 
-    } else {
+    } else if (global.nopr == 3) {
         // MULTIPLICAÇÃO: Diminui (soma 50) de cada número antes de calcular o total
         global.opr = "X";
         
-        
-        global.n1 = floor(global.n1 / 5);
-		global.n2 = floor(global.n2 / 5);
+        global.n1 = floor(global.n1 / 7);
+		global.n2 = floor(global.n2 / 7);
         
         // Calcula o total com os valores ajustados
         global.total = global.n1 * global.n2;
-    };
+		
+    }else{
+		global.opr = "/";
+		
+		global.n2 = floor(global.n2 / 7);
+		global.n1 = global.n2 * irandom_range(1, 10)
+		
+		global.total = global.n1 / global.n2;
+	
+	}
 };
 
 global.Cnova();

@@ -1,3 +1,4 @@
+if (global.acabou == false){
 if (global.tempo_atual > 0){
     global.tempo_atual = global.tempo_atual - 1;
 }
@@ -54,4 +55,5 @@ image_index = 11;
 
 }else if(global.tempo_atual == 60*1){
 image_index = 12;
+}
 }

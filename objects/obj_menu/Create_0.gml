@@ -14,7 +14,7 @@ opcao2 =
 	texto : "Tutorial",
 	
 	funcao : function(){
-		room_goto(jogo)
+		room_goto(tutorial)
 	}
 }
 
@@ -23,7 +23,7 @@ opcao3 =
 	texto : "Créditos",
 	
 	funcao : function(){
-		room_goto(jogo)
+		room_goto(creditos)
 	}
 }
 

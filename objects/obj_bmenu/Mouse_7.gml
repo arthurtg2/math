@@ -1,4 +1,4 @@
-if (layer_get_visible("reiniciar"))
+if (layer_get_visible("reiniciar")){
 
  //zerando os pontos 
 global.pontos = 0;
@@ -11,4 +11,6 @@ global.erros = 0
  global.vida = 5
 
 
-{game_restart()}
+}
+
+room_goto(menu)

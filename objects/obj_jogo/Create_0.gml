@@ -51,7 +51,7 @@ global.Cnova = function() {
 		global.opr = "/";
 		
 		global.n2 = floor(global.n2 / 7);
-		global.n1 = global.n2 * irandom_range(1, 10)
+		global.n1 = global.n2 * irandom_range(3, 10)
 		
 		global.total = global.n1 / global.n2;
 	

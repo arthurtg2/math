@@ -1,5 +1,5 @@
 if (global.acabou == false){
-global.pontos= global.pontos - 20;
+global.pontos= global.pontos - 5;
 global.tempo_atual = 60 * 15
 
 audio_play_sound(snd_errada, 0, 0);

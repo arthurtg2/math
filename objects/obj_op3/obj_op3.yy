@@ -9,8 +9,8 @@
   "name":"obj_op3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"jogo",
+    "path":"folders/Objects/jogo.yy",
   },
   "parentObjectId":{
     "name":"obj_op1",

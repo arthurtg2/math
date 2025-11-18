@@ -20,7 +20,7 @@ for(var i = 0; i < array_length(Pmenu); i++){
 	}
 	
 	draw_set_color(cor);
-	draw_text(20 + _margem, 20 +  altura  * i, Pmenu[i].texto);
+	draw_text(60 + _margem, 20 +  altura  * i, Pmenu[i].texto);
 	draw_set_color(-1);
 	draw_set_font(-1);
 }

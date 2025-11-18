@@ -10,8 +10,8 @@
   "name":"obj_op1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"jogo",
+    "path":"folders/Objects/jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

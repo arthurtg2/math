@@ -15,8 +15,8 @@
   "name":"obj_jogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"jogo",
+    "path":"folders/Objects/jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

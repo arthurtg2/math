@@ -1,4 +1,4 @@
-tutorialn = 0
+global.tutorialn = 0
 
 window_set_size(1820, 980);
 

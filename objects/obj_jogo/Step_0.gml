@@ -1,3 +1,15 @@
+if (!audio_is_playing(playlist[index])) {
+    index++;
+
+    // se chegou no final da lista, volta para o início
+    if (index >= array_length(playlist)) {
+        index = 0;
+    }
+
+    audio_play_sound(playlist[index], 1, false);
+}
+
+
 global.vida = clamp(global.vida, 0, 5);
 
 //SE O JOGO ACABOU EU SAIO DO EVENTO

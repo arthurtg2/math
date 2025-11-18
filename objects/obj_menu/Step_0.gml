@@ -1,4 +1,10 @@
 if (keyboard_check_pressed(ord("W"))) or (keyboard_check_pressed(vk_up)){
+	audio_play_sound(snd_op, 0, 0);
+	
+	if (!audio_is_playing(snd_musicam)) {
+    // Só toca se não estiver tocando
+    audio_play_sound(snd_musicam, 10, true);
+}
 	
 	atual--;
 	//zerando a margem
@@ -6,6 +12,12 @@ if (keyboard_check_pressed(ord("W"))) or (keyboard_check_pressed(vk_up)){
 }
 
 if (keyboard_check_pressed(ord("S"))) or (keyboard_check_pressed(vk_down)){
+	audio_play_sound(snd_op, 0, 0);
+	
+	if (!audio_is_playing(snd_musicam)) {
+    // Só toca se não estiver tocando
+    audio_play_sound(snd_musicam, 10, true);
+}
 	
 	atual++;
 	//zerando a margem

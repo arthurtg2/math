@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7520181,
+  "duration":0.55727893,
   "exportDir":"",
   "name":"snd_oleo",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_oleo.mp3",
-  "volume":0.2,
+  "volume":0.8,
 }

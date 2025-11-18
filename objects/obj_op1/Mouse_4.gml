@@ -20,10 +20,10 @@ instance_destroy(obj_op3);
 
 obj_jogo.alarm[4] = 1;
 
+layer_set_visible("verde", true);
 
-if (!audio_is_playing(snd_musica)) {
-    // Só toca se não estiver tocando
-    audio_play_sound(snd_musica, 10, true);
-}
+// Cria um controlador temporário
+var ctrl = instance_create_layer(x, y, "verde", obj_controle_verde);
+
 }
 

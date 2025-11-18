@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_musica",
+  "%Name":"snd_musicaj1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":90.666664,
+  "duration":81.706665,
   "exportDir":"",
-  "name":"snd_musica",
+  "name":"snd_musicaj1",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_musica.mp3",
-  "volume":0.2,
+  "soundFile":"snd_musicaj1.mp3",
+  "volume":1.0,
 }

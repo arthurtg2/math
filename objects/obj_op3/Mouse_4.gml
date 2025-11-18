@@ -14,4 +14,9 @@ instance_destroy(obj_op3);
 
 // Inicie o Alarme 4 no obj_jogo para recriar os botões no PRÓXIMO frame
 obj_jogo.alarm[4] = 1;
+
+layer_set_visible("vermelho", true);
+
+// Cria um controlador temporário
+var ctrl = instance_create_layer(x, y, "vermelho", obj_controle_vermelho);
 }

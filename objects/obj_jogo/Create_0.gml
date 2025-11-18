@@ -1,8 +1,10 @@
 
-if (!audio_is_playing(snd_musica)) {
-    // Só toca se não estiver tocando
-    audio_play_sound(snd_musica, 10, true);
-}
+playlist = [snd_musicaj1, snd_musicaj2, snd_musicaj3];
+index = 0;
+
+audio_play_sound(playlist[index], 1, false);
+
+
 
 global.vida = 5;        // de vida inicial
 
@@ -102,7 +104,7 @@ alarm[3] = 60
 
 
 // Define o tamanho da janela. Altere os valores para o tamanho desejado.
-window_set_size(1720, 880);
+window_set_size(1620, 780);
 
 // Centraliza a janela na tela
 window_center();

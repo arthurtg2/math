@@ -12,4 +12,10 @@ global.erros = 0
  global.acabou = false;
  
  global.vida = 5
+ 
+audio_stop_sound(snd_musicaj1);
+audio_stop_sound(snd_musicaj2);
+audio_stop_sound(snd_musicaj3);
+
+
 }

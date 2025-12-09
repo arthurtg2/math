@@ -6,7 +6,7 @@ else
 {
     // Ação a ser executada quando o tempo acabar (por exemplo, reiniciar o jogo)
      global.vida--
-	 global.tempo_atual = 60 * 15
+	 global.tempo_atual = 60 * 25
 	 
 	 instance_destroy(obj_op1);
 	 instance_destroy(obj_op2);
@@ -17,31 +17,31 @@ else
 
 
 
-if(global.tempo_atual  >= 60*13){
+if(global.tempo_atual  >= 60*23){
 image_index = 0;
 
-}else if(global.tempo_atual == 60*12){
+}else if(global.tempo_atual == 60*20){
 image_index = 1
 
-}else if(global.tempo_atual == 60*11){
+}else if(global.tempo_atual == 60*18){
 image_index = 2;
 
-}else if(global.tempo_atual == 60*10){
+}else if(global.tempo_atual == 60*16){
 image_index = 3;
 
-}else if(global.tempo_atual == 60*9){
+}else if(global.tempo_atual == 60*14){
 image_index = 4;
 
-}else if(global.tempo_atual == 60*8){
+}else if(global.tempo_atual == 60*12){
 image_index = 5;
 
-}else if(global.tempo_atual == 60*7){
+}else if(global.tempo_atual == 60*10){
 image_index = 6;
 
-}else if(global.tempo_atual == 60*6){
+}else if(global.tempo_atual == 60*8){
 image_index = 7;
 
-}else if(global.tempo_atual == 60*5){
+}else if(global.tempo_atual == 60*6){
 image_index = 8;
 
 }else if(global.tempo_atual == 60*4){

@@ -1,1 +1,1 @@
-global.tempo_atual = 60 * 20
+global.tempo_atual = 60 * 25

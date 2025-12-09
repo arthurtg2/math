@@ -1,7 +1,7 @@
 if (global.acabou == false){
 global.pontos= global.pontos + 10;
 global.pontosvida = global.pontosvida + 0.5
-global.tempo_atual = 60 * 15
+global.tempo_atual = 60 * 25
 
 if(global.pontosvida == 1){
 global.vida++

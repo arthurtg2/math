@@ -17,17 +17,19 @@ for (var i = 0; i < array_length(y_posicoes); i++) {
 // Reativa o alarme para o próximo ciclo de criação de obstáculos
 
 if(global.pontos < 500){
-alarm[0] = 60 * random_range(1.6,1.6);
+alarm[0] = 60 * random_range(1.7,1.7);
 
 }else if(global.pontos < 1000){
-alarm[0] = 60 * random_range(1.1, 1.4);
+alarm[0] = 60 * random_range(1.2, 1.5);
 
 }else if(global.pontos < 1500){
-alarm[0] = 60 * random_range(1.0, 1.2);
+alarm[0] = 60 * random_range(1.1, 1.3);
 
 }else if(global.pontos < 2000){
 alarm[0] = 60 * random_range(0.9, 1.0);
 
 }else if(global.pontos > 2000){
-alarm[0] = 60 * random_range(0.6, 0.8);
+alarm[0] = 60 * random_range(0.8, 0.8);
+}else if(global.pontos > 2500){
+alarm[0] = 60 * random_range(0.6, 0.7);
 }
